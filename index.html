@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen recording</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Screen recording</h2>
+<div id="timer">0:00</div>
+<div class="container">
+  <button onclick="startRecording()">Start</button>
+  <button onclick="pauseResumeRecording()" id="puse_Resume">Pause</button>
+  <button onclick="stopRecording()">Stop</button>
+</div>
+<span class="circule_1"></span>
+
+
+
+<script src="main.js"></script>
+<script src="https://cdn.webrtc-experiment.com/RecordRTC.js"></script>
+<!-- Include FileSaver.js for saving the video -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.js"></script>
+
+</body>
+</html>

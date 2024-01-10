@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+text-align: center;
+  background-color: #000;
+  background-image: url(images/1.jpg);
+  background-size: cover;
+}
+h2{
+  margin: 15px 0 30px ;
+  color: #fff;
+  font-size: 6em;
+  animation: scalling 2s linear  infinite alternate;
+  text-shadow: 0 0 15px #000;
+}
+@keyframes scalling {
+  from{
+    scale: 1;
+  }
+  to{
+    scale: 0.9;
+  }
+  
+}
+#timer {
+  font-size: 40px;
+  background-color: rgb(0, 0, 0);
+  border: 8px dotted #fff;
+  border-radius: 50%;
+  width: 200px;
+  height:200px;
+  line-height: 200px;
+  margin: 55px auto 25px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+
+
+}
+
+@keyframes rotateborder {
+  from{
+    rotate: 0deg;
+  }
+  to{
+    rotate: 360deg;
+    
+  }
+  
+}
+
+.circule_1{
+  width: 50px;
+  height: 50px;
+  animation: rotateborder 10s linear  infinite alternate;
+  position: fixed;
+  top: 50px;
+  left: 10px;
+  border: 7px dotted #fff;
+  border-radius: 50%;
+}
+
+.container{
+  background-color: #000;
+  width: fit-content;
+  margin: 15px auto;
+  padding: 8px;
+  border-radius: 5px;
+
+}
+.container button {
+  background-color: #fff;
+  color: #000;
+  font-size: 15px;
+  padding: 5px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  border: none;
+  margin: 2px 5px;
+}
