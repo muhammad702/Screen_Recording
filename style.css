@@ -4,6 +4,9 @@ text-align: center;
   background-color: #000;
   background-image: url(images/1.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  width: 97.8vw;
+  height: 95vh;
 }
 h2{
   margin: 15px 0 30px ;
@@ -11,6 +14,13 @@ h2{
   font-size: 6em;
   animation: scalling 2s linear  infinite alternate;
   text-shadow: 0 0 15px #000;
+}
+@media (max-width:1000px) {
+  h2{
+  
+  font-size: 3em;
+
+  }
 }
 @keyframes scalling {
   from{
